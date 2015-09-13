@@ -26,6 +26,7 @@ JSONObject result=parseChat2Json.parseSyncChat2Json(chatMessage);
 
 Or
 
+```java
 parseChat2Json.parseAsyncChat2Json(chat, new ParseChat2Json.ParseChat2JsonResponse() {
             @Override
             public void onProgress(JSONObject link) {
@@ -43,7 +44,7 @@ parseChat2Json.parseAsyncChat2Json(chat, new ParseChat2Json.ParseChat2JsonRespon
 				//You can implement at here
             }
 });
-
+```
 
 
 
