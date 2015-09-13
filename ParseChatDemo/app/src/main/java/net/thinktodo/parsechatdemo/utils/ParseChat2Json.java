@@ -98,6 +98,16 @@ public class ParseChat2Json {
         }else{
             //do nothing
         }
+        if (emoticonsArray.length() > 0) {
+            try {
+                data.put("emoticons", emoticonsArray);
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+        }else{
+            //do nothing
+        }
+
         return data;
     }
 
@@ -186,6 +196,15 @@ public class ParseChat2Json {
                 data.put("mentions", mentionArray);
             } catch (JSONException e) {
                response.onError("mentions",e);
+            }
+        }else{
+            //do nothing
+        }
+        if (emoticonsArray.length() > 0) {
+            try {
+                data.put("emoticons", emoticonsArray);
+            } catch (JSONException e) {
+                e.printStackTrace();
             }
         }else{
             //do nothing

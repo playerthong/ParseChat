@@ -54,7 +54,7 @@ public class MainActivity extends BaseActivity {
                 }
             }
         });
-        String chat="@Thong, Olympics are starting soon; http://www.nbcolympics.com  http://www.google.com  http://www.yahoo.com  http://www.nbcolympics.com";
+        String chat="@Thong, Olympics are starting soon; http://www.nbcolympics.com (borat)";
         edMessage.setText(chat);
     }
 

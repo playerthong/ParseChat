@@ -33,7 +33,7 @@ public class ParseChat2JsonTest {
 
     @Test
     public void testParseSyncChat2Json(){
-        String chat="@Thong,@Bao Olympics are starting soon; hTtp://www.nbcolympics.com";
+        String chat="@Thong,@Bao Olympics are starting soon; hTtp://www.nbcolympics.com (boat)";
         String result="{\"mentions\":[\"Thong\",\"Bao\"],\"links\":[{\"title\":\"NBC Olympics | Home of the 2016 Olympic Games in Rio\",\"url\":\"http://www.nbcolympics.com\"}]}";
         ParseChat2Json parseChat2Json=new ParseChat2Json();
         JSONObject json=parseChat2Json.parseSyncChat2Json(chat);
