@@ -17,6 +17,7 @@ Notice: Both of them must run in background in Android
 Example:  "@Thong, Olympics are starting soon; http://www.nbcolympics.com"
 
 Step 1: Create parseChat2Json
+
 String chatMessage="@Thong, Olympics are starting soon; http://www.nbcolympics.com";
 ParseChat2Json parseChat2Json=new ParseChat2Json();
 
