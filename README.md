@@ -47,7 +47,20 @@ parseChat2Json.parseAsyncChat2Json(chat, new ParseChat2Json.ParseChat2JsonRespon
 ```
 
 
-
+Result:
+```json
+{
+    "mentions": [
+        "Thong"
+    ],
+    "links": [
+        {
+            "title": "NBC Olympics | Home of the 2016 Olympic Games in Rio",
+            "url": "http://www.nbcolympics.com"
+        }
+    ]
+}
+```
 
 
 ## License
