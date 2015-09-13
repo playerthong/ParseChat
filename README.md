@@ -7,6 +7,7 @@ ParseChat2Json used JSoup to get title from link
 
 For example, calling your function with the following inputs should result in the corresponding return values.
 
+```json
 Input: "@chris you around?"
 Return (string):
 {
@@ -52,7 +53,7 @@ Return (string):
     }
   ]
 }
-
+```
 
 ##Features
 - Get title from link (http,https,www)
