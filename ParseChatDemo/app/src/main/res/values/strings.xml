@@ -1,6 +1,7 @@
 <resources>
-    <string name="app_name">ParseChatDemo</string>
-
+    <string name="app_name">Parse Chat</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="activity_main_please_input_your_message">Please input your message!</string>
+    <string name="activity_main_async_task_is_running">Async task is running</string>
 </resources>

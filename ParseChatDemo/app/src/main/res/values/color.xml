@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- toolbar -->
+    <color name="orange_background">#EF6C00</color>
+    <color name="orange_background_dark">#E65100</color>
+</resources>
